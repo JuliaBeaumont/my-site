@@ -13,20 +13,20 @@ body{font: 20px Montserrat, sans-serif; color: #06425C}
 .spacer-section{background-color: #f5f6f7}
 .padded-image{margin-top: 5%}
 
-.goal1-section{background-color: #CDBB79; padding: 10% 10% 10% 10%}
-.goal2-section{background-color: #B7695C; padding: 10% 10% 10% 10%}
-.goal3-section{background-color: #51A39D; padding: 10% 10% 10% 10%}
-.goal4-section{background-color: #814374; padding: 10% 10% 10% 10%}
+.goal1-section{background-color: #CDBB79; padding: 5% 10% 5% 10%}
+.goal2-section{background-color: #B7695C; padding: 5% 10% 5% 10%}
+.goal3-section{background-color: #51A39D; padding: 5% 10% 5% 10%}
+.goal4-section{background-color: #814374; padding: 5% 10% 5% 10%}
 
 .main-image {display: inline;}
 .img-padding{margin-bottom: 20px}
 
 .footer-section {background-color: #1a2930;}
 
-a:link    {color:inherit; background-color:transparent; text-decoration:none}
-a:visited {color:inherit; background-color:transparent; text-decoration:none}
-a:hover   {color:blue; background-color:transparent; text-decoration:none; transition: color 1s}
-a:active  {color:blue; background-color:transparent; text-decoration:none; transition: color 1s}
+a:link    {color:inherit; background-color:transparent; text-decoration:underline;}
+a:visited {color:inherit; background-color:transparent; text-decoration:underline}
+a:hover   {color:purple; background-color:transparent; text-decoration:underline; transition: color 1s}
+a:active  {color:purple; background-color:transparent; text-decoration:underline; transition: color 1s}
 
 /*Creating floating back to top*/
 
