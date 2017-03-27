@@ -1,0 +1,46 @@
+/* Custom styles go in here */
+
+h1 {font-size: 32px}
+h2{color: #06425C}
+h3{color: #06425C}
+body{font: 20px Montserrat, sans-serif; color: #06425C}
+
+
+.header-section{background-color: #06425C; color: white; padding: 5% 10% 10% 10%}
+.indent-header-section{background-color: #06425C; color: white; margin: 10% 10% 10% 10%}
+.goals-section{background-color: #f5f6f7; color: #06425C; padding: 5% 10% 5% 10%}
+.notes-section{background-color: #cd5360}
+.spacer-section{background-color: #f5f6f7}
+.padded-image{margin-top: 5%}
+
+.goal1-section{background-color: #CDBB79; padding: 10% 10% 10% 10%}
+.goal2-section{background-color: #B7695C; padding: 10% 10% 10% 10%}
+.goal3-section{background-color: #51A39D; padding: 10% 10% 10% 10%}
+.goal4-section{background-color: #814374; padding: 10% 10% 10% 10%}
+
+.main-image {display: inline;}
+.img-padding{margin-bottom: 20px}
+
+.footer-section {background-color: #1a2930;}
+
+a:link    {color:inherit; background-color:transparent; text-decoration:none}
+a:visited {color:inherit; background-color:transparent; text-decoration:none}
+a:hover   {color:blue; background-color:transparent; text-decoration:none; transition: color 1s}
+a:active  {color:blue; background-color:transparent; text-decoration:none; transition: color 1s}
+
+/*Creating floating back to top*/
+
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: #06425C url("up.png") no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
